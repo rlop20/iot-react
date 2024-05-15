@@ -2,10 +2,9 @@
 
 import React from 'react';
 import './App.css';
-import Header from './Header';
 import Home from './Home';
 import Activities from './Activities'; // Import the Activities component
-import Footer from './Footer'; // Import Footer component
+import Research from './Research';
 import {
   BrowserRouter as Router,
   Routes,
@@ -18,9 +17,10 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route exact path="/" element={<Header />} />
-          <Route path="/Home.js" element={<Home />} />
+          {/* <Route exact path="/Home.js" element={<Header />} /> */}
+          <Route path="/" element={<Home />} />
           <Route path="/Activities.js" element={<Activities />} />
+          <Route path="/Research.js" element={<Research />} />
         </Routes>
       </Router>
     </div>

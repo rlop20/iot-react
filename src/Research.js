@@ -4,7 +4,7 @@ import photo1 from './photos/exploit.jpg'
 import Header from './Header';
 import Footer from './Footer'; // Import Footer component
 
-const Activities = () => {
+const Research = () => {
   return (
     <div>
           <Header />
@@ -25,8 +25,9 @@ const Activities = () => {
         </div>
       </div>
       <Footer />
+
     </div>
   );
 }
 
-export default Activities;
+export default Research;

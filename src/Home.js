@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css'; // CSS file for styling
-import photo1 from './photos/eufy.jpg';
-import photo2 from './photos/petlibro.jpg';
+import photo1 from './photos/exploit.jpg';
 import Header from './Header';
+import Footer from './Footer'; // Import Footer component
 
 const Home = () => {
   return (
@@ -40,6 +40,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 }

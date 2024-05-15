@@ -6,6 +6,17 @@ npm install
 
 npm start
 
+# DEBUG
+I ran into a problem where I could not figure out how to properly navigate to different js files.
+The solution was this:
+
+1. make sure that package.json contains the depenencies that are present here. Copy them from package.json
+
+2. run:
+
+ npm i react-router-dom
+
+ 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
