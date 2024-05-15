@@ -1,3 +1,11 @@
+# How to edit this code
+clone into your directory of choice
+run:
+
+npm install
+
+npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
