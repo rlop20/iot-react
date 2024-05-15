@@ -12,6 +12,7 @@ const Header = () => {
           <img src={photo2} alt="Logo" />
           </a>
         </div>
+        <div class="menu-icon">&#9776;</div>
         <ul className="nav-links">
           <li>
             <Link to="/">Home</Link>
@@ -27,7 +28,12 @@ const Header = () => {
 
         </ul>
       </div>
+
+      <script>
+        
+      </script>
     </nav>
+
   );
 }
 

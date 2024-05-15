@@ -22,6 +22,8 @@ const Activities = () => {
               </div>
             </div>
           </div>
+
+          
         </div>
       </div>
       <Footer />

@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer>
       <div>
-        <p>Footer content goes here</p>
+        <p class="footerP">PCC East IoT Makerspace</p>
       </div>
     </footer>
   );

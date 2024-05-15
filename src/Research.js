@@ -17,8 +17,8 @@ const Research = () => {
               <img src={photo1} alt="Learn" />
             </a> 
               <div>
-                <h1>IoT Exploitation</h1>
-                <p>Exploit IoT devices to learn penetration testing and embedded system programming.</p>
+                <h1>Implementation of IoT Exploitation for makerspace v0.1</h1>
+                <p>A review article on the Research done on IoT Exploitation</p>
               </div>
             </div>
           </div>

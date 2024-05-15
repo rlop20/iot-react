@@ -81,9 +81,27 @@
 }
 
 .welcome-message {
+  background-image: url("photos/makerspace.jpg");
   background-color: #f0f0f0; /* Light Gray */
   padding: 50px 0;
   text-align: center;
+  height: 50vh; /* Set the height to 100% of the viewport height */
+  background-size: cover; /* Cover the entire background area */
+  background-position: center; /* Center the background image */
+}
+
+#welcome {
+  color: white;
+  text-shadow: 2px 2px 4px #000; /* Adjust the text shadow as needed */
+  font-size: 5vw; /* Use viewport width units for responsive font size */
+  position: relative;
+  top: 350px; /* Adjust top position as needed */
+  left: 300px; /* Adjust left position as needed */
+}
+
+
+.welcomeh1 {
+  color: white;
 }
 
 .welcome-message h1 {
@@ -192,6 +210,10 @@
 }
 
 footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-color: #000;
   height: 200px;
 }
@@ -200,4 +222,55 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.footerP {
+  color: #61dafb;
+}
+
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links a {
+  color: #005ea2;
+  text-decoration: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.menu.show {
+  display: flex; /* Show the menu when the show class is applied */
+  flex-direction: column; /* Display the menu items in a column */
+  position: absolute; /* Position the dropdown menu */
+  top: 100%; /* Position the menu below the menu icon */
+  left: 0; /* Align the menu with the menu icon */
+  background-color: #333; /* Background color of the dropdown menu */
+  padding: 10px; /* Add padding to the menu */
+  z-index: 1; /* Ensure the dropdown menu is above other content */
+}
+
+.menu li {
+  margin-right: 0; /* Remove right margin from menu items */
+  margin-bottom: 10px; /* Add bottom margin to separate menu items */
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .menu-icon {
+    font-size: 50px;
+    color: #f0f0f0;
+    display: block;
+    cursor: pointer;
+  }
 }
